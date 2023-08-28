@@ -102,3 +102,219 @@ span{
 hr{
    border-color: #01c38e;
 }
+
+.padre {
+    display: flex;
+}
+
+.nav {
+    /* Estilos para el nav */
+    width: 300px;
+}
+
+.contenedorOpciones {
+    /* Estilos para contenedorOpciones */
+    flex: 1; /* Utiliza todo el espacio disponible */
+}
+
+
+.form-container{
+
+    background-color: #132D46;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+li{
+    list-style: none;
+}/* Estilos generales */
+
+
+
+/*INICIO ESTILO CONTENEDOR PRINCIPAL*/
+.form-container {
+  display: flex;
+  flex-direction:column;
+  width: 80%; /* Ajusta el ancho según tu preferencia */
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+/*FIN ESTILO CONTENEDOR PRINCIPAL*/
+
+/*INICIO ESTILO FACTURACION, DATOS DE EMPRESA*/
+.datosEmpresa {
+  text-align: left;
+  margin-bottom: 20px;
+}
+/*INICIO ESTILO FACTURACION, DATOS DE EMPRESA*/
+
+/*INICIO ESTILO DATOS AUTOMATICOS, FACTURA Y FEHCHA*/
+.datos-facturacion-container {
+  background-color: #1a1e29;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+*{
+    border-radius: 3px;
+}
+
+.datos-facturacion-container label,
+.datos-facturacion-container input {
+  margin-top: 5px;
+}
+/*FIN ESTILO DATOS AUTOMATICOS, FACTURA Y FEHCHA*/
+
+/*INICIO ESTILO DATOS FACTURAR A*/
+.datosPersona {
+  flex: 1;
+  padding-right: 20px;
+}
+
+/*INICIO ESTILO DATOS FACTURAR A*/
+
+/*INICIO ESTILO DETALLES, EL PRODUCTO QUE COMPRO*/
+.datos-facturacion-container {
+  flex: 1;
+  padding-left: 20px;
+
+}
+/*INICIO ESTILO DETALLES, EL PRODUCTO QUE COMPRO*/
+
+
+
+.botones {
+  margin-top: 20px; /* Añade un margen superior para separar del resto del contenido */
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espaciado entre los botones */
+}
+
+th{
+  background-color: #01c38e;
+  padding: 5px;
+}
+
+tr,td{
+  border: 1px solid #01c38e;
+}
+td{
+    color: white;
+}
+
+tr{
+    color: black;
+    font-weight: bold;
+}
+td:hover{
+  background-color: #1a1e29;
+  color: white;
+}
+
+label,li{
+  font-weight: bold;
+}
+
+
+/*BOTONES*/
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+  border-radius: 30px;
+  border: 1px solid #8F9092;
+  transition: all 0.2s ease;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #606060;
+  text-shadow: 0 1px #fff;
+}
+
+button:hover {
+  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+ 
+}
+
+button:active {
+  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+button:focus {
+  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+  }
+
+.detalles{
+    margin: 0 auto;
+}
+
+table th{
+    font-weight: bold;
+}
+table.datosCompra th{
+color: black;
+}
+table.datosCompra td{
+    color: white;
+    background-color: #132D46;
+}
+
+
+/*estilos de inputs*/
+input, textarea{
+    outline: none;
+    border: 0;
+}
+
+.field{
+    border: solid 1px #132D46;
+    padding: 3px;
+    background-color: #132D46;
+
+}
+
+form{
+    font-size: 15px;
+}
+
+.field:focus{
+    border-color:  #01c38e;
+    color: white;
+}
+
+label,li{
+    color: white;
+}
+
+h2{
+    color: #01c38e;
+}
+input.button{
+    color: white;
+    padding: 7px;
+    margin: 0;
+}
+
+.beliminar{
+background-color:  #c41818;
+}
+
+.bagregar{
+    background-color: #1872c4;
+}
