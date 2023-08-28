@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilosFactura.css">
+</head>
+<body>
+
+ <form action="#" class="form-container">
+
+      <div class="datos-facturacion-container">
+        <h2>Datos de facturacion</h2>
+        <table class="datosCompra">
+            
+          <th>Factura #</th>
+            <th>Fecha y Hora</th>
+
+            <tr>
+                <td><input type="text" value="02" disabled></td>
+                <td><input type="text" value="18:01-20/02/2023" disabled></td>
+
+            </tr>
+        </table>
+      </div>
+
+      <div class="datosEmpresa">
+            <h1>Facturacion</h1>
+
+            <ul>
+                <li>Direccion</li>
+                <li>Cuidad</li>
+                <li>Telefono</li>
+                <li>Correo</li>
+            </ul>
+            
+      </div>
+
+      <div class="datosPersona">
+          <h2>Facturar a:</h2>
+            <div>
+                <label for="nombre">Nombre Persona</label>
+                <input type="text" id="nombre">
+              </div>
+              <div>
+                <label for="compania">Compania</label>
+                <input type="text" id="compania">
+              </div>
+              <div>
+                <label for="direccion">Direccion</label>
+                <input type="text" id="direccion">
+              </div>
+              <div>
+                <label for="telefono">Telefono</label>
+                <input type="cellphone" id="direccion">
+              </div>
+              <div>
+                <label for="correo">Correo</label>
+                <input type="email" id="direccion">
+              </div>
+      </div>
+
+
+      <div class="detalles">
+          <h2>Detalles</h2>
+        <table class="comproProductos">
+          <th colspan="1">Descripcion</th>
+          <th colspan="12">Cantidad</th>
+          <th>Precio unitario</th>
+          <th>Monto</th>
+          <th>Opciones</th>
+
+          <tr>
+              <td colspan="12">Tubos</td>
+              <td>5</td>
+              <td>10</td>
+              <td>50</td>
+              <td>
+                <input type="button" value="Eliminar">
+                <input type="button" value="Agregar más">
+              </td>
+
+          </tr>
+        </table>
+      </div>
+
+      <div class="botones">
+        <button>Enviar</button>
+        <button>Cancelar</button>
+        
+      </div>
+
+
+ </form>
+
+
+
+    
+</body>
+</html>

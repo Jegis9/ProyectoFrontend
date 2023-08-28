@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.phonoPorfile{
+    border-radius: 50%;
+}
+
+body{
+    background: white;
+    font-family: 'Poppins',sans-serif;
+}
+.nav{
+    width: 300px;
+}
+.nav__link{
+    color: #FFFF;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+.nav__link--inside:hover{
+    background-color: black;
+}
+
+.nav__link--inside{
+    border-radius: 6px;
+    padding-left: 20px;
+}
+
+.list__show{
+    width: 80%;
+    margin: auto;
+    border-left: 2px solid #01c38e;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
+.list{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #132D46;
+}
+.list__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+
+.list__item--click{
+    cursor: pointer;
+}
+
+.list__button, .list__nutton{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width:70%;
+    margin: 0 auto;
+}
+
+.list__arrow{
+    margin-left: auto;
+}
+
+.porfile{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.list {
+    width: 300px;
+    position: relative; /* Agrega posición relativa para el elemento list */
+}
+
+.botonDespliegue {
+    width: 50px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px; /* Agrega espacio alrededor del icono */
+}
+
+
+span{
+    color: #FFFF;
+}
+
+
+hr{
+   border-color: #01c38e;
+}
