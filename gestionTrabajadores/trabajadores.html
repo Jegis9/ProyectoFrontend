@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilosMenu.css">
+    <link rel="stylesheet" href="/estilosGenerales/estiloMenu.css">
+    <link rel="stylesheet" href="/estilosGenerales/estiloTablas.css">
 </head>
 <body>
     <div class="padre">
@@ -110,9 +111,6 @@
                     <li class="list__inside">
                         <a href="#" class="nav__link nav__link--inside">Roles</a>
                     </li>
-                    <li class="list__inside">
-                        <a href="#" class="nav__link nav__link--inside">Usuarios</a>
-                    </li>
     
                 </ul>
 
@@ -143,16 +141,117 @@
     </nav>
 
     <div class="contenedorOpciones">
-        <h1 class="titulo">Inicio</h1>
+        <div class="formularioTrabajadores">
+                <h1>Ingreso de trabajadores</h1>
+                <form action="">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" class="field">
+                    </div>
+                    <div class="campo">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" class="field">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="sexo">Sexo</label>
+                        <input type="text" id="sexo" class="field">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="puesto">Puesto</label>
+                        <input type="text" id="puesto" class="field">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" id="usuario" class="field">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="text" id="contraseña" class="field">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="direccion">Direccion</label>
+                        <input type="text" id="direccion" class="field">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="telefono">Telefono</label>
+                        <input type="text" id="telefono" class="field">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" class="field">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="rol">Rol</label>
+                        <select id="rol" name="rol">
+                            <option value="Administrador">Administrador</option>
+                            <option value="Secretaria">Secretaria</option>
+                            <option value="Concerje">Concerje</option>
+                            <option value="Contador">Contador</option>
+                        </select>
+                    </div>
+                    <div class="botones">
+                        <input type="button" value="Agregar" class="btnOpcion" href="" >
+                        <input type="button" value="Cancelar" class="btnOpcion">
+                    </div>
+                </form>
+            
+        </div>
+<div class="listadoTrabajadores">
+<h2>Lista de usuarios</h2>
+<table>
+    <th>ID</th>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Sexo</th>
+    <th>Puesto</th>
+    <th>Usuario</th>
+    <th>Contraseña</th>
+    <th>Direccion</th>
+    <th>Telefono</th>
+    <th>Email</th>
+    <th>Suelto</th>
+    <th>Rol</th>
+    <th>Opciones</th>
 
-      
-      
-      
+    <tr>
+        <td>1</td>
+        <td>Daniel</td>
+        <td>Fuentes</td>
+        <td>Masculino</td>
+        <td>Jefesito</td>
+        <td>DanielFuentes</td>
+        <td>Erickson</td>
+        <td>San marcos</td>
+        <td>00000000</td>
+        <td>daniel@gmail.com</td>
+        <td>25,000.00</td>
+        <td>Administrador</td>
+        <!--LA IDEA AQUI ES QUE SE ELIMINE CON EL ID QUE LE PERTENECE AL TRABAJADOR-->
+        <td>
+            <input type="button" value="Actualizar" class="eliminar" id="actualizarBtn">
+    
+            <input type="button" value="Eliminar" class="actualizar">
+        </td>
+    </tr>
+</table>
     </div>
+
+
 
 </div>
 
-<script src="menuScript.js"></script>
+</div>
+
+<script src="../Menu/menuScript.js"></script>
+<script src="redireccionBotones.js"></script>
 
 
 </body>

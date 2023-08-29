@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilosMenu.css">
+    <link rel="stylesheet" href="../../estilos generales.css">
+    <link rel="stylesheet" href="../roles/estilosGenerales.css">
 </head>
 <body>
     <div class="padre">
@@ -110,9 +111,6 @@
                     <li class="list__inside">
                         <a href="#" class="nav__link nav__link--inside">Roles</a>
                     </li>
-                    <li class="list__inside">
-                        <a href="#" class="nav__link nav__link--inside">Usuarios</a>
-                    </li>
     
                 </ul>
 
@@ -143,16 +141,36 @@
     </nav>
 
     <div class="contenedorOpciones">
-        <h1 class="titulo">Inicio</h1>
+        <div class="formularioTrabajadores">
+                <h1>Roles</h1>
+                <form action="">
+                    
+                    
+                    <div class="campo">
+                        <label for="direccion">Rol</label>
+                        <input type="text" id="direccion" class="field">
+                    </div>
+                    
+              
+                    <div class="botones">
+                        <input type="button" value="Actualizar" class="btnOpcion" href="" >
+                        <input type="button" value="Cancelar" class="btnOpcion">
+                    </div>
+                </form>
+            
+        </div>
+<div class="listadoTrabajadores">
 
-      
-      
-      
     </div>
+
+
 
 </div>
 
-<script src="menuScript.js"></script>
+</div>
+
+<script src="../Menu/menuScript.js"></script>
+<script src="redireccionBotones.js"></script>
 
 
 </body>

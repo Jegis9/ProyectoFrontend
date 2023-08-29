@@ -1,0 +1,106 @@
+
+/*INICIO DE ESTILO FORMULARIO*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+.formularioTrabajadores {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #132D46;
+    border-radius: 10px;
+    color: white;
+}
+
+.formularioTrabajadores h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+
+.campo input.field,
+.campo select {
+    display: inline-block;
+    width: calc(100% - 90px);
+    padding: 5px;
+    background-color: #1E3B5A;
+    border: none;
+    color: white;
+}
+
+.botones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btnOpcion {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 20px;
+    background-color: #01c38e;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btnOpcion:hover {
+    background-color: #0D895E;
+}
+/*FIN DE ESTILO FORMULARIO*/
+
+
+
+/*INICIO ESTILO TABLA*/
+
+
+th{
+    background-color: #01c38e;
+
+}
+
+td{
+    background-color: #1E3B5A;
+    color: white;
+}
+
+table{
+    border-radius: 3px;
+    background-color: #132D46;
+    margin: 0 auto;
+}
+
+.actualizar,.eliminar {
+    width: 80px;
+    height: 50px;
+}
+.actualizar{
+
+    background-color: #0D895E;
+}
+.eliminar{
+    
+    background-color: #C0392B;
+}
+td:hover{
+background-color: #132D46;
+}
+.eliminar:hover{
+    background-color: red;
+}
+.actualizar:hover{
+    background-color: greenyellow;
+}

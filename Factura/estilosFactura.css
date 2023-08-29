@@ -81,16 +81,15 @@ body{
 }
 .list {
     width: 300px;
-    position: relative; /* Agrega posición relativa para el elemento list */
+    position: relative; 
 }
-
 .botonDespliegue {
     width: 50px;
     text-align: left;
     position: absolute;
     top: 0;
     right: 0;
-    padding: 10px; /* Agrega espacio alrededor del icono */
+    padding: 10px; 
 }
 
 
@@ -108,13 +107,11 @@ hr{
 }
 
 .nav {
-    /* Estilos para el nav */
     width: 300px;
 }
 
 .contenedorOpciones {
-    /* Estilos para contenedorOpciones */
-    flex: 1; /* Utiliza todo el espacio disponible */
+    flex: 1; 
 }
 
 
@@ -136,7 +133,7 @@ li{
 .form-container {
   display: flex;
   flex-direction:column;
-  width: 80%; /* Ajusta el ancho según tu preferencia */
+  width: 80%; 
   border: 1px solid #ccc;
   padding: 20px;
 }
@@ -188,10 +185,10 @@ li{
 
 
 .botones {
-  margin-top: 20px; /* Añade un margen superior para separar del resto del contenido */
+  margin-top: 20px; 
   display: flex;
   justify-content: center;
-  gap: 10px; /* Espaciado entre los botones */
+  gap: 10px; 
 }
 
 th{
