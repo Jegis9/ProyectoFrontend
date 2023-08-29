@@ -1,0 +1,71 @@
+*{
+    border-radius: 4px;
+}
+.datos h3{
+    font-size: 17px;
+    color: #01c38e;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.datos h1{
+    font-size: 35px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+
+.datos {
+    display: flex; 
+    margin-top: 1%;
+    margin-left: 15%;
+    padding: 1%;
+}
+
+.analisis {
+    margin: 10px; 
+    background-color: #132d46;
+    width: 250px;
+    height: 132px;
+    border-radius: 3px;
+}
+
+h4{
+    color: #ccc;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.imagesText{
+    display: flex;
+}
+.imagesText img{
+    width: 50px;
+    margin-left: 15px;
+}
+
+.masVendidos th{
+    background-color: #01c38e;
+}
+td{
+    border: #01c38e 1px solid;
+    color: white;
+}
+
+table{
+    margin: 0 auto;
+    border: #01c38e 1px solid;
+    background-color: #132d46;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
