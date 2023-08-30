@@ -49,5 +49,36 @@ window.addEventListener('load', handleResize);
 window.addEventListener('resize', handleResize);
 //FIN RESPONSIBE
 
+//letras
+const textElements = document.querySelectorAll('.textoPresentacion span, .subtitulo span, .subtitulo2 span');
+
+function typeText(element, text, interval) {
+    return new Promise((resolve) => {
+        let charIndex = 0;
+
+        const typingInterval = setInterval(() => {
+            if (charIndex < text.length) {
+                element.textContent += text[charIndex];
+                charIndex++;
+            } else {
+                clearInterval(typingInterval);
+                resolve();
+            }
+        }, interval);
+    });
+}
+
+async function showTextSequentially() {
+    for (const element of textElements) {
+        const text = element.textContent;
+        element.textContent = '';
+
+        await typeText(element, text, 100); 
+
+        await new Promise((resolve) => setTimeout(resolve, 500));
+    }
+}
+
+showTextSequentially();
 
 

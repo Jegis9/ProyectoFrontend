@@ -8,6 +8,12 @@
 h2{
     text-align: center;
 }
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
 .formularioTrabajadores {
     width: 300px;
     margin: 50px auto;
@@ -89,14 +95,13 @@ table{
 }
 .actualizar{
 
-    background-color: #0D895E;
-}
+    background-color: #1872c4;
 .eliminar{
     
-    background-color: #C0392B;
+    background-color:  #c41818;
 }
 td:hover{
-background-color: #132D46;
+background-color: #0a1dcf;
 }
 .eliminar:hover{
     background-color: red;
@@ -104,3 +109,4 @@ background-color: #132D46;
 .actualizar:hover{
     background-color: greenyellow;
 }
+

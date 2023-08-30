@@ -216,39 +216,27 @@ label,li{
   font-weight: bold;
 }
 
+/*BOTONES*/
+.botones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btnOpcion {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 20px;
+    background-color: #01c38e;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btnOpcion:hover {
+    background-color: #0D895E;
+}
 
 /*BOTONES*/
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  outline: none;
-  cursor: pointer;
-  width: 150px;
-  height: 50px;
-  background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
-  border-radius: 30px;
-  border: 1px solid #8F9092;
-  transition: all 0.2s ease;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  color: #606060;
-  text-shadow: 0 1px #fff;
-}
-
-button:hover {
-  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
- 
-}
-
-button:active {
-  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
-}
-
-button:focus {
-  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
-}
 
 
 .titulo{
@@ -274,24 +262,11 @@ table.datosCompra td{
 
 
 /*estilos de inputs*/
-input, textarea{
-    outline: none;
-    border: 0;
-}
 
 .field{
-    border: solid 1px #132D46;
-    padding: 3px;
-    background-color: #132D46;
-
-}
-
-form{
-    font-size: 15px;
-}
-
-.field:focus{
-    border-color:  #01c38e;
+    padding: 5px;
+    background-color: #1E3B5A;
+    border: none;
     color: white;
 }
 
@@ -315,3 +290,13 @@ background-color:  #c41818;
 .bagregar{
     background-color: #1872c4;
 }
+
+
+.beliminar:hover{
+    background-color: red;
+    }
+    
+    .bagregar:hover{
+        background-color: greenyellow;
+    }
+    

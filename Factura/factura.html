@@ -16,7 +16,7 @@
                 </div>
     
                 <div class="porfile">
-                    <img src="../assets/user.png" width="215px" alt="" class="phonoPorfile">
+                    <img src="" width="215px" alt="" class="phonoPorfile">
                     <br>
                     <span class="nameUser">Usuario</span>
                     <br>
@@ -147,61 +147,78 @@
               <h2>Datos de facturacion</h2>
               <table class="datosCompra">
                   
-                <th>Factura #</th>
+                <th>Venta #</th>
                   <th>Fecha y Hora</th>
       
                   <tr>
-                      <td><input type="text" value="02" disabled></td>
-                      <td><input type="text" value="18:01-20/02/2023" disabled></td>
+                      <td><input type="text" value="02" class="field"></td>
+                      <td><input type="text" value="18:01-20/02/2023" class="field"></td>
       
                   </tr>
               </table>
             </div>
-      
+      <!--
             <div class="datosEmpresa">
                   <h2>Facturacion</h2>
       
                   <ul>
-                      <li>Direccion</li>
-                      <li>Cuidad</li>
-                      <li>Telefono</li>
-                      <li>Correo</li>
+                      <li>Quetzaltenango zona 1</li>
+                      <li>Quetzaltenango</li>
+                      <li>4560 - 4212</li>
+                      <li>laElectronica@gmail.com</li>
                   </ul>
                   
             </div>
-      
+      -->
             <div class="datosPersona">
                 <h2>Facturar a:</h2>
-                  <div>
-                      <label for="nombre">Nombre Persona</label>
-                      <input type="text" id="nombre" class="field" placeholder="juan">
-                    </div>
+
                     <div>
-                      <label for="compania">Compania</label>
+                      <label for="compania">Nombre</label>
                       <input type="text" id="compania"class="field">
                     </div>
                     <div>
-                      <label for="direccion">Direccion</label>
+                      <label for="direccion">Trabajador ID</label>
                       <input type="text" id="direccion"class="field">
                     </div>
                     <div>
-                      <label for="telefono">Telefono</label>
+                      <label for="telefono">Cliente ID</label>
                       <input type="cellphone" id="direccion"class="field">
                     </div>
                     <div>
-                      <label for="correo">Correo</label>
+                      <label for="correo">NIT</label>
                       <input type="email" id="direccion"class="field">
                     </div>
             </div>
       
+            <div class="detalles">
+                <h2 class="titulo">Agregar Producto</h2>
+              <table class="comproProductos">
+                <th >ID de producto</th>
+                <th >Cantidad</th>
+        
+                <th>Opciones</th>
       
+                <tr>
+                    <td >05</td>
+                    <td>100</td>
+
+                    <td>
+                      <input type="button" value="Agregar a carrito" class="button bagregar">
+                    </td>
+      
+                </tr>
+              </table>
+            </div>
+
+
             <div class="detalles">
                 <h2 class="titulo">Detalles</h2>
               <table class="comproProductos">
-                <th >Descripcion</th>
+                <th >ID</th>
                 <th >Cantidad</th>
                 <th>Precio unitario</th>
-                <th>Monto</th>
+                <th>Total</th>
                 <th>Opciones</th>
       
                 <tr>
@@ -219,9 +236,8 @@
             </div>
       
             <div class="botones">
-              <button class="btnOpcion">Enviar</button>
-              <button class="btnOpcion">Cancelar</button>
-              
+                <input type="button" value="Agregar" class="btnOpcion" href="" >
+                <input type="button" value="Cancelar" class="btnOpcion">
             </div>
       
       

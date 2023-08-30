@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -317,4 +319,44 @@ background-color:  #c41818;
 
 .bagregar{
     background-color: #1872c4;
+}
+
+.presentacion{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/assets/fondo.jpg");
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-size: 110%;
+}
+
+
+h1{
+    font-family: 'Roboto Mono';
+}
+
+.textoPresentacion{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 600%;
+}
+
+.subtitulo{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 600%;
+}
+.subtitulo2{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 600%;
 }
